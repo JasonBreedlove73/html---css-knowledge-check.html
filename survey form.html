@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey form</title>
+</head>
+<body>
+    <nav>
+    <ul>
+                <li><a href="indexlesson3.html">Home</a></li>
+                <li><a href="about.html#about">About</a></li>
+                <li><a href="indexlesson3.html#our services">Services</a></li>
+                <li><a href="contact-form.html#contact">Contact</a></li>
+                <li><a href="about.html#team">Our Team</a></li>
+                <li><a href="about.html#mission">Our Mission</a></li>
+                <li><a href="#survey form.html">survey</a></li>
+                <li><a href="html & css knowledge check.html">Products</a></li>
+
+
+    <form action="#" method="POST">
+        <!-- Personal Information Section -->
+
+         <h1>Please Take Our Survey</h1>
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+          <br><br>
+      
+          <label for="user-email">Email:</label>
+          <input type="email" id="user-email" name="user-email" required placeholder="Enter your email">
+          <br><br>
+      
+          <label for="Date of appointment">Date of appointment:</label>
+          <input type="Date" id="Date of appointment" name="Date of appointment">
+          <br><br>
+        </fieldset>
+      
+        <!-- Preferences Section -->
+        <fieldset>
+          <legend>Preferences</legend>
+          <label for="Quality scale of the work you received">Quality scale of the work you received 1-10:</label>
+          <input type="number" id="Quality scale of the work you received" name="Quality scale of the work you received" min="1" max="10" step="1">
+          <br><br>
+      
+          <label for="how did we do">Were you pleased with our service?</label>
+          <input type="radio" id="yes" name="how did we do" value="yes"> Yes
+          <input type="radio" id="no" name="how did we do" value="no"> No
+          <br><br>
+      
+          <p>Select the service you recieved:</p>
+          <input type="checkbox" id="wash" name="service" value="wash">
+          <label for="wash">wash</label>
+          <input type="checkbox" id="wax" name="service" value="wax">
+          <label for="wax">wax</label>
+          <input type="checkbox" id="claybar" name="service" value="claybar">
+          <label for="claybar">claybar</label>
+          <input type="checkbox" id="interior detail" name="service" value="interior detail">
+          <label for="interior detail">interior detail</label>
+          <input type="checkbox" id="carpet shampoo" name="service" value="carpet shampoo">
+          <label for="carpet shampoo">carpet shampoo</label>
+          <input type="checkbox" id="ceramic coat" name="service" value="ceramic coat">
+          <label for="ceramic coat">ceramic coat</label>
+          <br><br>
+        </fieldset>
+      
+        <!-- Feedback Section -->
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="feedback">Your Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" col="50" placeholder="Enter your comments here..."></textarea>
+          <br><br>
+        </fieldset>
+      
+        <input type="submit" value="Submit">
+      </form>
+    </body>
+    </html>
